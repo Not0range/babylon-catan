@@ -1,5 +1,6 @@
 import { memo, useEffect, useState, type ReactNode } from 'react';
-import { SceneContext, useEngine } from '../common/hooks';
+import useEngine from '@hooks/useEngine';
+import { SceneContext } from '@hooks/useScene';
 import { Scene } from '@babylonjs/core';
 
 type Props = {

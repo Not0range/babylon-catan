@@ -51,6 +51,9 @@ const config: webpack.Configuration = {
     ],
   },
   resolve: {
+    alias: {
+      '@hooks': path.resolve(__dirname, 'src/common/hooks'),
+    },
     extensions: ['.js', '.jsx', '.ts', '.tsx'],
   },
 };

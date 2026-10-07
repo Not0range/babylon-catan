@@ -1,5 +1,5 @@
 import { memo, useEffect, useRef } from 'react';
-import { useScene } from '../common/hooks';
+import useScene from '@hooks/useScene';
 import { Models } from '../data';
 import { Color4, Mesh, MeshBuilder } from '@babylonjs/core';
 import Constants from '../utils/constants';

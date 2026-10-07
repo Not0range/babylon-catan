@@ -1,7 +1,7 @@
 import { Engine } from '@babylonjs/core';
 import { useEffect, useMemo, useRef, useState } from 'react';
 import { memo, type ReactNode } from 'react';
-import { EngineContext } from '../common/hooks';
+import { EngineContext } from '@hooks/useEngine';
 
 type Props = {
   children?: ReactNode;

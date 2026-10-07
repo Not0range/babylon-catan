@@ -1,6 +1,6 @@
 import { memo, useEffect, useRef } from 'react';
-import { useScene } from '../common/hooks';
 import { HemisphericLight, Vector3 } from '@babylonjs/core';
+import useScene from '@hooks/useScene';
 
 type Props = {
   intensity?: number;

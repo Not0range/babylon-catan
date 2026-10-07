@@ -1,6 +1,7 @@
 import { ArcRotateCamera, MeshBuilder, Vector3 } from '@babylonjs/core';
 import { memo, useEffect, useMemo, useState } from 'react';
-import { useEngine, useScene } from '../common/hooks';
+import useScene from '@hooks/useScene';
+import useEngine from '@hooks/useEngine';
 import GameLight from '../components/game_light';
 import GameTile from '../components/game_tile';
 import { Models } from '../data';
