@@ -14,7 +14,8 @@
     "strict": true,
     "allowUmdGlobalAccess": false,
     "paths": {
-      "@hooks/*": ["./src/common/hooks/*"]
+      "@hooks/*": ["./src/common/hooks/*"],
+      "@cmps/*": ["./src/components/*"]
     }
   },
   "include": ["src/*"]

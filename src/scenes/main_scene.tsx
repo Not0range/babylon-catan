@@ -2,8 +2,8 @@ import { ArcRotateCamera, MeshBuilder, Vector3 } from '@babylonjs/core';
 import { memo, useEffect, useMemo, useState } from 'react';
 import useScene from '@hooks/useScene';
 import useEngine from '@hooks/useEngine';
-import GameLight from '../components/game_light';
-import GameTile from '../components/game_tile';
+import GameLight from '@cmps/game_light';
+import GameTile from '@cmps/game_tile';
 import { Models } from '../data';
 import Constants from '../utils/constants';
 
@@ -43,7 +43,7 @@ const MainScene = memo(() => {
       const res = scene.pick(
         scene.pointerX,
         scene.pointerY,
-        (e) => e.name === 'ground',
+        e => e.name === 'ground',
         true,
       );
 

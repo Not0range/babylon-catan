@@ -1,6 +1,6 @@
 import { memo } from 'react';
-import GameCanvas from './components/game_canvas';
-import GameScene from './components/game_scene';
+import GameCanvas from '@cmps/game_canvas';
+import GameScene from '@cmps/game_scene';
 import MainScene from './scenes/main_scene';
 
 const App = memo(() => {

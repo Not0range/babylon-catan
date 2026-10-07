@@ -53,6 +53,7 @@ const config: webpack.Configuration = {
   resolve: {
     alias: {
       '@hooks': path.resolve(__dirname, 'src/common/hooks'),
+      '@cmps': path.resolve(__dirname, 'src/components'),
     },
     extensions: ['.js', '.jsx', '.ts', '.tsx'],
   },
