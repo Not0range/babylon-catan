@@ -1,4 +1,4 @@
-import React, { memo, useEffect, useRef } from 'react';
+import { memo, useEffect, useRef } from 'react';
 import { useScene } from '../common/hooks';
 import { HemisphericLight, Vector3 } from '@babylonjs/core';
 

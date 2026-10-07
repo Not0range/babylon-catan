@@ -1,4 +1,3 @@
-import React from 'react';
 import { memo } from 'react';
 import GameCanvas from './components/game_canvas';
 import GameScene from './components/game_scene';

@@ -1,4 +1,4 @@
-import React, { memo, useEffect, useState, type ReactNode } from 'react';
+import { memo, useEffect, useState, type ReactNode } from 'react';
 import { SceneContext, useEngine } from '../common/hooks';
 import { Scene } from '@babylonjs/core';
 
