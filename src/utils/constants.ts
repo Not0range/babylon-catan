@@ -11,12 +11,13 @@ const Constants = {
   yOffset: hexagonRadius,
   fieldHeight: 0.1,
   tileColors: [
+    new Color4(0, 0, 0), //nothing
     new Color4(1, 0.94, 0), //desert
     new Color4(0.13, 0.69, 0.3), //forest
     new Color4(0.71, 0.96, 0.11), //hills
     new Color4(1, 0.79, 0.05), //fields
     new Color4(0.5, 0.5, 0.5), //mountains
-    new Color4(0.73, 0.48, 0.34), //career
+    new Color4(0.73, 0.48, 0.34), //career,
   ],
 };
 
